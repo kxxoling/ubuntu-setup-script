@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:lucid-bleed/ppa -y 					# VLC
 sudo add-apt-repository ppa:webupd8team/sublime-text-2 -y 		# Sublime Text 2
 sudo add-apt-repository ppa:chromium-daily/stable -y			# Chromium
 sudo add-apt-repository ppa:webupd8team/themes -y 				# OS X主题
-
+sudo add-apt-repository ppa:ypubuntu-com/gtk3				#主题
 sudo apt-get update -y
 
 echo "Install useful stuff"
@@ -86,6 +86,7 @@ echo "System setup complete"
 echo 'You might need to run "chsh -s `which zsh`"'
 
 #以下是TODO，使用时请删除！
+sudo add-apt-repository ppa:ypubuntu-com/gtk3
 
 Oceanic Dark
 sudo apt-get install oceanic-dark
@@ -95,7 +96,7 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Oceanic-Dark'
 gconftool-2 --set --type string /apps/metacity/general/theme 'Oceanic-Dark'
 
 
-Mac OS X Lion Theme
+#Mac OS X Lion Theme
 
 sudo apt-get install macx-lion
 
@@ -104,65 +105,27 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Mac-X-Lion'
 gconftool-2 --set --type string /apps/metacity/general/theme 'Mac-X-Lion'
 
 
-Ice Cream GTK
+#Ice Cream GTK
 sudo apt-get install ice-cream-theme
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Ice-Cream-GTK'
 
 gconftool-2 --set --type string /apps/metacity/general/theme 'Ice-Cream-GTK'
 
-Light-Greyness-Dark-Grey-GTK
+#Light-Greyness-Dark-Grey-GTK
 sudo apt-get install light-greyness-dark-grey
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Light-Greyness-Dark-Grey-GTK'
 
 gconftool-2 --set --type string /apps/metacity/general/theme 'Light-Greyness-Dark-Grey-GTK'
 
-Elementary Lion 1.1
+#Elementary Lion 1.1
 
 http://www.deviantart.com/download/210121746/elementary_lion_1_1_by_dolsilwa-d3h3mz6.zip
 http://dolsilwa.deviantart.com/art/elementary-Lion-1-1-210121746
 
-gekosMac
+#gekosMac
 http://mygeekopinions.blogspot.com/2011/04/install-gorgeous-looking-icon-theme.html
 http://mygeekopinions.blogspot.com/2011/04/install-elementary-theme-in-ubuntu-1104.html
 
-Oceanic Dark
-sudo apt-get install oceanic-dark
 
-gsettings set org.gnome.desktop.interface gtk-theme 'Oceanic-Dark'
-
-gconftool-2 --set --type string /apps/metacity/general/theme 'Oceanic-Dark'
-
-
-Mac OS X Lion Theme
-
-sudo apt-get install macx-lion
-
-gsettings set org.gnome.desktop.interface gtk-theme 'Mac-X-Lion'
-
-gconftool-2 --set --type string /apps/metacity/general/theme 'Mac-X-Lion'
-
-
-Ice Cream GTK
-sudo apt-get install ice-cream-theme
-
-gsettings set org.gnome.desktop.interface gtk-theme 'Ice-Cream-GTK'
-
-gconftool-2 --set --type string /apps/metacity/general/theme 'Ice-Cream-GTK'
-
-Light-Greyness-Dark-Grey-GTK
-sudo apt-get install light-greyness-dark-grey
-
-gsettings set org.gnome.desktop.interface gtk-theme 'Light-Greyness-Dark-Grey-GTK'
-
-gconftool-2 --set --type string /apps/metacity/general/theme 'Light-Greyness-Dark-Grey-GTK'
-
-Elementary Lion 1.1
-
-http://www.deviantart.com/download/210121746/elementary_lion_1_1_by_dolsilwa-d3h3mz6.zip
-http://dolsilwa.deviantart.com/art/elementary-Lion-1-1-210121746
-
-gekosMac
-http://mygeekopinions.blogspot.com/2011/04/install-gorgeous-looking-icon-theme.html
-http://mygeekopinions.blogspot.com/2011/04/install-elementary-theme-in-ubuntu-1104.html
