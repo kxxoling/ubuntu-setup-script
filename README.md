@@ -1,4 +1,4 @@
-ubuntu-12.04-setup
+ubuntu-setup-script
 ==================
 
-Ubuntu 12.04 setup scripts
+Ubuntu setup script
