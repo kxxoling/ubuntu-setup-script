@@ -20,7 +20,7 @@ sudo add-apt-repository ppa:ypubuntu-com/gtk3				#主题
 sudo add-apt-repository ppa:fcitx-team/nightly 				#fcitx+GooglePinyin
 
 sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian precise contrib" >> /etc/apt/sources.list' 	#Ubuntu 12.04 VirtualBox
-
+sudo apt-key add oracle_vbox.asc
 
 echo "更新软件源"
 sudo apt-get update -y
@@ -45,20 +45,18 @@ sudo apt-get install -y git-core 			# git
 sudo apt-get install sublime-text 			# 安装sublime text 2
 sudo apt-get install g++ 				#安装g++
 
-echo "安装下载并Node.js……"
+echo "安装Node.js……"
 git clone git://github.com/joyent/node.git
 cd node
 ./configure | make | sudo make install
 
-echo "正在下载并安装Ruby环境……"
+echo "正在安装Ruby环境……"
 sudo apt-get install ruby-full rubygems
 
-echo "正在下载并安装RHC……"
+echo "正在安装RHC……"
 sudo gem install rhc
 
-echo "正在下载并安装VirtualBox……"
-sudo apt-get install virtualbox-4.2
-sudo apt-get install dkms
+
 
 
 # Finished!
